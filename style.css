@@ -1,0 +1,171 @@
+
+
+body{
+  background-color:lightgray;
+}
+.heading{
+background-color: lightpink;
+text-decoration: none; 
+padding:10px;
+margin:0px;
+font-family:'Times New Roman', Times, serif;
+}
+nav{
+  text-decoration: none;
+  font-size:1.2rem; 
+}
+.port-heading{
+  position: fixed;
+  left:0;
+  right:0;
+  align-items: center;
+  color:black;
+  height: 80px;
+  /* padding: 10px; */
+  display: flex;
+  justify-content: space-between;
+  background-color: lightpink;
+  margin-top:0;
+}
+nav a{
+  text-decoration: none;
+  color:black;
+}
+nav a:hover {
+  text-decoration: underline;
+}
+
+
+div{
+  background-color: lightpink;
+  font-family:'Times New Roman', Times, serif;
+}
+/* all of the above is used on all pages */
+
+.intro{
+  text-align: center;
+}
+.intro h2{
+  font-size: 2.3rem;
+  margin:20px;
+  padding-top:100px
+}
+.intro h4{
+  padding-bottom: 5px;
+}
+.quotes{
+  border: solid; height:398px;
+  margin-top: -22px;
+  padding: 20px;
+  font-size: 2rem;
+  font-style: italic;
+}
+/* end of index.html styling  */
+/* start of about styling */
+
+#top-about{
+  font-size:1.5rem;
+  text-align: center;
+  text-decoration: overline;
+ font-style: oblique;
+ padding-top:100px
+}
+
+.gym{
+  display:flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  height:100vh;
+  justify-content: center;
+}
+
+.gym h3{
+  margin-bottom:50px;
+  font-size: 2rem;
+  text-decoration:underline;
+  text-transform: uppercase;
+}
+.gym img{
+  max-width: 100%;
+  height:auto;
+ 
+}
+
+.tennis{
+  display:flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  height:100vh;
+  justify-content: center;
+}
+
+.tennis h3{
+
+    margin-bottom:50px;
+    font-size: 2rem;
+    text-decoration:underline;
+    text-transform: uppercase;
+  
+}
+
+
+
+.tennis img{
+  max-width: 100%;
+  height:auto;
+ 
+}
+
+.tv{
+  display:flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  height:100vh;
+  justify-content: center;
+}
+
+.tv h3{
+  margin-bottom:50px;
+  font-size: 2rem;
+  text-decoration:underline;
+  text-transform: uppercase;
+}
+.tv img{
+  max-width: 100%;
+  height:auto;
+}
+/* end of about.html */
+
+h2{
+padding-top:20px;
+}
+
+.projects{
+  display:flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  /* height:100vh; */
+  justify-content: center;
+}
+
+.projects h2{
+
+    margin-bottom:20px;
+    font-size: 1.5rem;
+    text-decoration:underline;
+    text-transform: uppercase;
+  
+}
+
+#port-header{
+  padding-top:100px;
+}
+
+.projects img{
+  max-width: 100%;
+  height:auto;
+}
