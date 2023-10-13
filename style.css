@@ -171,9 +171,10 @@ padding-top:20px;
   height:auto;
 }
 
-
+/* beginning of contact form and submission form */
 form{
   display:flex;
+  /* use of flex */
   flex-flow:column wrap;
   justify-content: center;
   row-gap: 10px;
@@ -183,6 +184,7 @@ form{
   color:white !important;
   color:black;
   font-size: 1.2rem;
+  /* varying units */
 
 
   }
@@ -193,6 +195,7 @@ background-color: lightpink;
 height:50px;
 margin:0;
 color:white !important;
+/* use of important (advanced selector) */
 
 
 }
@@ -210,6 +213,7 @@ color:white !important;
   height:200px;
   margin-top:0%;
   order: 4;
+  /* varying units */
 }
 
 #leaveme{
@@ -220,6 +224,7 @@ color:white !important;
 #button{
   order: 5;
 }
+/* dom ordering fort he order of the form (use of css rules) */
 
 #submission{
   /* margin-top:100px; */
