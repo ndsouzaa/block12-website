@@ -5,7 +5,7 @@ body{
  
 }
 .heading{
-background-color: lightpink;
+background-color: lightblue;
 text-decoration: none; 
 padding:10px;
 margin:0px;
@@ -25,17 +25,24 @@ nav{
   /* padding: 10px; */
   display: flex;
   justify-content: space-between;
-  background-color: lightpink;
+  background-color: lightblue;
   margin-top:0;
 }
 nav a{
   text-decoration: none;
   color:black;
+  background-color: lightblue;
 }
 nav a:hover {
   text-decoration: underline;
 }
 
+#name{
+  background-color: lightblue;
+  padding:25px;
+
+
+}
 
 div{
   background-color: lightpink;
@@ -49,7 +56,7 @@ div{
 .intro h2{
   font-size: 2.3rem;
   margin:20px;
-  padding-top:100px
+  padding-top:100px;
 }
 .intro h4{
   padding-bottom: 5px;
